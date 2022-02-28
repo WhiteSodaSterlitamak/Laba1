@@ -81,7 +81,7 @@ void calcf(std::ostream& f, std::istream& fin) {
 	f << "Результат вычислений: " << result << std::endl;
 }
 
-//спрашиваем продолжить или нет
+//спрашиваем продолжить или нет.
 bool getNext() {
 	std::cout << "Продолжить? (0 - нет, 1 - да)\n";
 	while (true) {
